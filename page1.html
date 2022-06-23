@@ -12,7 +12,7 @@
 <body>
   <nav class="navbar navbar-expand-lg bg-primary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">AWEB-P1</a>
+      <a class="navbar-brand" href="#">AWEB-P2</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -20,7 +20,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Unidad1</a>
@@ -34,12 +34,13 @@
               Unidad3
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Repaso Unidad 2</a></li>
+              <li><a class="dropdown-item" href="#">Servlet</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#">JSP</a></li>
+              <li><a class="dropdown-item" href="#">Conexion BD</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -49,73 +50,96 @@
       </div>
     </div>
   </nav>
+  <br>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+    <div class="col">
+      <div class="card shadow-sm">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="0" xmlns="http://www.w3.org/2000/svg"
+          role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <img src="https://bit.ly/3OcW3oL" class="rounded float-start" alt="foto1">
+        </svg>
+        <div class="card-body">
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="0" xmlns="http://www.w3.org/2000/svg"
+          role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <img src="https://bit.ly/3OcW3oL" class="rounded float-start" alt="foto1">
+        </svg>
+        <div class="card-body">
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="0" xmlns="http://www.w3.org/2000/svg"
+          role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <img src="https://bit.ly/3OcW3oL" class="rounded float-start" alt="foto1">
+        </svg>
+        <div class="card-body">
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="container">
-    <div class="container">
-      <div>
-        <img src="https://bit.ly/3n7i38j" class="rounded float-start" alt="foto1" width="200" height="200">
-      </div>
-      <div>
-        <img src="https://bit.ly/3OcW3oL" class="rounded mx-auto d-block" alt="foto2" width="200" height="200">
-      </div>
-      <div>
-        <img src="https://bit.ly/3xOpkPx" class="rounded float-end" alt="foto3" width="200" height="200">
-      </div>
-    </div>
-    <div class="container">
-      <h1>Personas registradas</h1>
-      <table class="table table-striped">
-        <thead>
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">Nombre</th>
-            <th scope="col">Apellido</th>
-            <th scope="col">Edad</th>
-            <th scope="col">Acciones</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>José</td>
-            <td>Narváez</td>
-            <td>30</td>
-            <td><button>Modificar</button></td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Chrisitan</td>
-            <td>Figueroa</td>
-            <td>@29</td>
-            <td><button>Modificar</button></td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td>Miguel</td>
-            <td>Jimenez</td>
-            <td>19</td>
-            <td><button>Modificar</button></td>
-          </tr>
-          <tr>
-            <th scope="row">4</th>
-            <td>Oscar</td>
-            <td>Moreno</td>
-            <td>26</td>
-            <td><button>Modificar</button></td>
-          </tr>
-          <tr>
-            <th scope="row">5</th>
-            <td>Araceli</td>
-            <td>Nuño</td>
-            <td>27</td>
-            <td><button>Modificar</button></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-      crossorigin="anonymous"></script>
-    <script src="app.js"></script>
+    <h1>Personas registradas</h1>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Nombre</th>
+          <th scope="col">Apellido</th>
+          <th scope="col">Edad</th>
+          <th scope="col">Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>José</td>
+          <td>Narváez</td>
+          <td>30</td>
+          <td><button type="button" class="btn btn-primary">Modificar</button></td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Chrisitan</td>
+          <td>Figueroa</td>
+          <td>29</td>
+          <td><button type="button" class="btn btn-primary">Modificar</button></td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Miguel</td>
+          <td>Jimenez</td>
+          <td>19</td>
+          <td><button type="button" class="btn btn-primary">Modificar</button></td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Oscar</td>
+          <td>Moreno</td>
+          <td>26</td>
+          <td><button type="button" class="btn btn-primary">Modificar</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <script src="app.js"></script>
 </body>
 
 </html>
